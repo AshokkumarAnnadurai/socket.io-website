@@ -42,7 +42,7 @@ io.to("some room").emit("some event");
 Or exclude a room:
 
 ```js
-io.except("some room").emit("some event");
+io.except("some room").emit("some event changes");
 ```
 
 You can also emit to several rooms at the same time:
